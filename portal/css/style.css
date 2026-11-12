@@ -1,0 +1,72 @@
+body {
+    background-image: url(../Raduo/Screenshot\ 2026-11-12\ 135336.png);
+    background-repeat:no-repeat ;
+}
+header .div1 h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+header .div2 ul li  {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 12px;
+    color: white;
+    background-color: sienna;
+    box-shadow: 0 0 7px white;
+    margin-left: 45px;
+    cursor: pointer;
+    transition: ease 2s;
+    transition: 1s;
+}
+header .div2 ul li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+}
+main .section1 {
+    display: flex;
+    justify-content: center;
+}
+.section1 div {
+    backdrop-filter: blur(20px);
+    width: 250px;
+    margin: 15px;
+    margin-top: 100px;
+    color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 7px white;
+    transition: ease 2s;
+    transition: 1s;
+}
+.section1 div:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+}
+.section1 div h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section1 div p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section1 div input {
+    background-color: sandybrown;
+    color: white;
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 0 0 7px white;
+    cursor: pointer;
+    transition: ease 2s;
+    transition: 1s; 
+    margin-left: 85px;
+}
+.section1 div input:hover {
+    background-color: saddlebrown;
+    box-shadow: 0 0 15px white;
+}
